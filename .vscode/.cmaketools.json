@@ -1,0 +1,56 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/Users/maccydaccy/Git/mastering-cmake/build",
+            "name": "bwv-cpp",
+            "sourceDirectory": "/Users/maccydaccy/Git/mastering-cmake",
+            "targets": [
+              {
+                "artifacts": [
+                  "/Users/maccydaccy/Git/mastering-cmake/build/bwv-cpp"
+                ],
+                "buildDirectory": "/Users/maccydaccy/Git/mastering-cmake/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk  ",
+                    "includePath": [
+                      {
+                        "path": "/Users/maccydaccy/Git/mastering-cmake/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "src/main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "bwv-cpp",
+                "linkLanguageFlags": "-g",
+                "linkerLanguage": "CXX",
+                "name": "bwv-cpp",
+                "sourceDirectory": "/Users/maccydaccy/Git/mastering-cmake",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.007230202001961006",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
